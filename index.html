@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- + adding the external fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/index.css" />
+    <title>bree . . .</title>
+  </head>
+  <body>
+    <!-- 
+        WHAT: Top navigation 
+        elements" logo, naigation routes
+        approch: div, span tag
+     -->
+    <div>
+      <!-- top navigation -->
+      <div class="topNavigationBar">
+        <!-- logo -->
+        <h1 id="logo">bree . . .</h1>
+        <!--  routes -->
+        <div id="routes">
+          <div id="route">
+            <a href="https://www.google.com" target="_blank">home</a>
+          </div>
+          <div id="route"><a>music</a></div>
+          <div id="route"><a>about</a></div>
+        </div>
+      </div>
+
+      <!-- center section -->
+      <!-- 
+        - start by main container => centerSection
+        - container 1 => imageSection
+        - container 2 => descriptionSection
+         -- inside container 2 => titleection
+         -- inside container 2 => paragraphSection
+         --inside container 2 => buttonSection
+       -->
+      <div id="centerSection">
+        <div id="imageSection">
+          <!-- image -->
+          <img id="homePageImage" src="./assets/images/test.jpg" />
+        </div>
+        <!-- contains nested elements -->
+        <div id="descriptionSection">
+          <h1 id="title">Sounds to the Soul ..</h1>
+          <p  id="description">
+            It was popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
+          </p>
+
+          <div id="buyTicketButton">buy tickets</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

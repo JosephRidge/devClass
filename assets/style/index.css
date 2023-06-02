@@ -1,0 +1,107 @@
+/*  set page margins */
+html {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+  overflow: hidden;
+}
+
+/* logo styling  */
+#logo {
+  margin-top: 48px;
+  margin-bottom: 48px;
+  font-size: 40px;
+}
+
+/* styles to handle top navigation */
+a {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+  color:#696969 ;
+}
+.topNavigationBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#routes {
+  display: flex;
+  margin-top: 55px; 
+}
+#route{
+   color:#696969 ;
+   margin-right: 70px;
+   height: fit-content;
+   width: fit-content;
+   text-decoration: none;     
+   transition: 0.7s;
+   border-bottom: 3px solid #ffffff;
+
+}
+#route:hover{
+border-bottom: 3px solid #0CCA9C;
+  
+}
+/*  styling the centerSEction
+ */
+#centerSection {
+  display: flex;
+}
+
+#imageSection {
+  width: 50%;
+}
+
+#descriptionSection {
+  width: 50%;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* homepage image styling */
+#homePageImage {
+  width: 80%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+/*  title for description section */
+#title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: start;
+}
+#description {
+  font-size: 20px;
+  text-align: start;
+  color: #A1A1A3;
+  line-height: 200%;
+}
+
+/*  button styling   */
+#buyTicketButton {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  width: fit-content;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 40px;
+}
+/* using pseudo selector */
+#buyTicketButton:hover {
+    background-color: #0CCA9C;
+    color: black;
+    cursor: pointer;
+}
+
